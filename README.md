@@ -1,5 +1,5 @@
 # Optimal Installation of Wireless Charging Lanes
-## How to reproduce results
+## How to run the model using pyomo + CPLEX
 Choose a model
 Edit the model file to for appropiate input graph
 Create a dat file mydata.dat using create_data.py
