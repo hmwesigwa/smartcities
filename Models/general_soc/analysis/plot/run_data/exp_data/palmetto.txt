@@ -1,0 +1,12 @@
+#!/bin/bash      
+#PBS -N example      
+#PBS -l select=1:ncpus=1:mem=2gb:interconnect=1g,walltime=00:45:00  
+#PBS -j oe      
+
+source /etc/profile.d/modules.sh  
+module purge   
+module add gcc
+cd /home/hushiji/Research/smart_cities/smart_cities/general_soc/analysis
+
+
+python method_comparison.py 408
