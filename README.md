@@ -6,4 +6,9 @@
 4. Run pyomo. e.g
 - `pyomo solve --solve=cplex --solver-options="<your-options>" create_model.py mydata.dat`
 
+### The following models are availble
+1. Simple SOC funcition
+2. General SOC function
+3. Real SOC function
 
+#### Simple SOC funcition
